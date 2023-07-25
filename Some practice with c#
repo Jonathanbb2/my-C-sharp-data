@@ -1,0 +1,1042 @@
+//First set of solving Parse
+
+
+//Console.WriteLine("Enter First Number:");
+//string FirstNumber = Console.ReadLine();
+
+//Console.WriteLine("Enter Second Number:");
+//string SecondNumber = Console.ReadLine();
+
+//int x, y;
+
+//if (int.TryParse(FirstNumber, out x) && int.TryParse(SecondNumber, out y))
+//{
+//    if (x == y)
+//    {
+//        Console.WriteLine("First Number is equal to the second number");
+//    }
+//    else if (x > y)
+//    {
+//        Console.WriteLine("First Number is greater than the second number");
+//    }
+//    else
+//    {
+//        Console.WriteLine("First Number is less than the second number");
+//    }
+//}
+
+//static void MyMethod(string fname)
+//{
+//Console.WriteLine(fname + " Bonilla");
+//}
+
+//{
+//MyMethod("Jonathan");
+//MyMethod("Josiah");
+//MyMethod("Amayah");
+//}
+//{
+//    static void MyMain(string fname, int age)
+//    {
+//        Console.WriteLine(fname + " is " + age);
+//    }
+
+//    {
+//        MyMain("Liam", 7);
+//        MyMain("Jenny", 24);
+//        MyMain("Anja", 31);
+//    }
+//    double Average(double n1, double n2)
+//    {
+//        double avrg = n1 + n2 / 2;
+//        return avrg;
+//    }
+
+//    {
+//        double num1, num2, avg;
+
+//        Console.Write("Enter First number: ");
+
+//        num1 = Convert.ToDouble(Console.ReadLine());
+
+//        Console.Write("Enter Second number: ");
+
+//        num2 = Convert.ToDouble(Console.ReadLine());
+
+//        avg = Average(num1, num2);
+
+//        Console.WriteLine("The Mean of two numbers is " + avg);
+
+//        Console.ReadKey();
+//    }
+//}
+
+//load a list, t, with 100 integers
+
+
+
+//if (num % 2 == 0)
+//{
+//    Console.WriteLine("Number is even");
+//}
+//else
+//{
+//    Console.WriteLine("Number is odd")
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Console.WriteLine("Enter Your number:");
+
+//int x;
+
+//int.TryParse(Console.ReadLine(), out x);
+
+//if (x % 2 == 0)
+//{
+//    Console.WriteLine("Number is even");
+//}
+//else
+//{
+//    Console.WriteLine("Number is odd");
+//}
+
+
+
+
+
+//{
+
+//    for (int i = 1; i <= 20; i++)
+
+//    {
+//        if (i % 3 != 0)
+
+
+//            Console.WriteLine(i);
+//    }
+
+//    Console.ReadLine();
+//}
+
+//using System;
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.Write("Enter Your Number:");
+
+//int x = int.Parse(Console.ReadLine());
+
+//int sum = 0;
+//int i = 1;
+//while (i <= x)
+//{
+//    sum += i; sum = sum + i;
+//    i = i + 1;
+//}
+
+//Console.WriteLine("The Sum of numbers from 1 to {0} is: {1}", x, sum);
+
+
+
+//In C#, the += operator is used for a specific purpose. It is called the "addition assignment" operator.
+//Let's imagine you have two numbers, and you want to add them together and store the result in a variable. The += operator helps you do that in a concise way.
+
+//int sum, i;
+
+//i = 5;
+//sum = 0;
+
+//Console.WriteLine(sum);
+
+//Console.WriteLine(i);
+
+//sum + i;
+//sum = sum + i;
+//Console.WriteLine(sum);
+
+//Console.WriteLine("Enter a number:")
+//    ;
+//int x = int.Parse(Console.ReadLine());
+
+//int i = 3;
+
+//while (i <= x)
+//{
+//    Console.WriteLine(i);
+//    i = i + 3;
+
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.WriteLine("Enter a number:");
+
+//int x = int.Parse(Console.ReadLine());
+
+//while (int i = 3; i <= x; i = i + 3)
+//{
+//    Console.WriteLine(i);
+//}
+
+// every variable of 3 is "a" 
+// every variable of 5 is "b"
+// 1 , 2 , a , 4 , b , a , 7 , 8 , a , b , 11 , a, 13 , 14 , ab , 
+
+
+//Console.WriteLine("User Enter Number:");
+//int x = int.Parse(Console.ReadLine());
+
+//for (int i = 1; i <= x; i++)
+//{
+//    if (i % 3 == 0 && i % 5 == 0)
+//    {
+//        Console.WriteLine("a and b");
+//    }
+//    else if (i % 3 == 0)
+//    {
+//        Console.WriteLine("a");
+//    }
+//    else if (i % 5 == 0)
+//    {
+//        Console.WriteLine("b");
+//    }
+//    else
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+//Console.WriteLine("Enter price of an Item:");
+
+//double x = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("The total of your Item is:" + 1.07 * x);
+
+//Console.ReadLine();
+
+
+//Console.Write("Enter a number: ");
+
+//int input = int.Parse(Console.ReadLine());
+//// Since we are using Int the reason 10 works is because 
+//int last = input / 10;
+
+//Console.WriteLine("The final digit in your number is: " + last);
+
+
+
+
+
+//int a = 10;
+//int b = 5;
+
+//Console.WriteLine(a + b);
+
+//a = b;
+
+//Console.WriteLine(a - b);
+
+
+////while (5 < 10)
+////{ 
+////    Console.WriteLine("Hi");
+
+////}
+////do
+
+////{
+////    Console.WriteLine("Hi");
+////}
+
+////while (10 < 5);
+
+//int x = 1;
+
+//while (x <= 100)
+//{
+//    x = x + 1;
+
+//    Console.WriteLine(x);
+//}
+
+
+//Console.Write("Enter a number for a Month:");
+
+//int Month = int.Parse(Console.ReadLine());
+
+//switch (Month)
+//{
+//    case 1:
+//        Console.WriteLine("January");
+//        break;
+//    case 2:
+//        Console.WriteLine("February");
+//        break;
+//    case 3:
+//        Console.WriteLine("March");
+//        break;
+//    case 4:
+//        Console.WriteLine("April");
+//        break;
+//    case 5:
+//        Console.WriteLine("May");
+//        break;
+//    case 6:
+//        Console.WriteLine("June");
+//        break;
+//    case 7:
+//        Console.WriteLine("July");
+//        break;
+//    case 8:
+//        Console.WriteLine("August");
+//        break;
+//    case 9:
+//        Console.WriteLine("September");
+//        break;
+//    case 10:
+//        Console.WriteLine("October");
+//        break;
+//    case 11:
+//        Console.WriteLine("November");
+//        break;
+//    case 12:
+//        Console.WriteLine("December");
+//        break;
+//    default: Console.WriteLine("There is only 12 Months");
+////        break;
+////}
+
+//Console.WriteLine("Enter a month:");
+//string input = Console.ReadLine();
+
+//int days = 0;
+//string monthName = input.ToLower();
+
+//switch (monthName)
+//{
+
+//    case "january":
+
+//    case "march":
+
+//    case "may":
+
+//    case "july":
+
+//    case "august":
+
+//    case "october":
+
+//    case "december":
+
+//        days = 31;
+//        break;
+//    case "february":
+
+//        days = 28;
+//        break;
+//    case "april":
+
+//    case "june":
+
+//    case "september":
+
+//    case "november":
+
+//        days = 30;
+//        break;
+//    default:
+//        Console.WriteLine("Invalid month input.");
+//        return;
+//}
+
+////Console.WriteLine($"{monthName}, has {days} days.");
+
+//Console.WriteLine("Enter a month:");
+//string input = Console.ReadLine();
+
+//int days = 0;
+//string monthName = input.ToLower();
+
+//switch (monthName)
+//{
+//    case "january":
+//        days = 31;
+//        break;
+//    case "february":
+//        days = 28;
+//        break;
+//    case "march":
+//        days = 31;
+//        break;
+//    case "april":
+//        days = 30;
+//        break;
+//    case "may":
+//        days = 31;
+//        break;
+//    case "june":
+
+//        days = 30;
+//        break;
+//    case "july":
+
+//        days = 31;
+//        break;
+//    case "august":
+
+//        days = 31;
+//        break;
+//    case "september":
+
+//        days = 30;
+//        break;
+//    case "october":
+
+//        days = 31;
+//        break;
+//    case "november":
+
+//        days = 30;
+//        break;
+//    case "december":
+
+//        days = 31;
+//        break;
+//    default:
+//        Console.WriteLine("Invalid month input.");
+//        return;
+//}
+
+//Console.WriteLine($"{monthName}, has {days} days.");
+
+
+//Console.WriteLine("Enter the first number:");
+//double firstNumber = Convert.ToDouble(Console.ReadLine());
+
+//Console.WriteLine("Enter the operator (+, -, *, /, %):");
+//string Math = Console.ReadLine();
+
+//Console.WriteLine("Enter the second number:");
+//double secondNumber = Convert.ToDouble(Console.ReadLine());
+
+//double result = 0;
+
+//switch (Math)
+//{
+//    case "+":
+//        result = firstNumber + secondNumber;
+//        break;
+//    case "-":
+//        result = firstNumber - secondNumber;
+//        break;
+//    case "*":
+//        result = firstNumber * secondNumber;
+//        break;
+//    case "/":
+//        if (secondNumber == 0)
+//        {
+//            Console.WriteLine("Cannot divide by zero.");
+//            return;
+//        }
+//        result = firstNumber / secondNumber;
+//        break;
+//    case "%":
+//        result = firstNumber % secondNumber;
+//        break;
+//    default:
+//        Console.WriteLine("Invalid operator input.");
+//        return;
+//}
+
+//Console.WriteLine("Result: " + result);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Console.WriteLine("Enter the first number:");
+//double firstNumber = Convert.ToDouble(Console.ReadLine());
+
+//Console.WriteLine("Enter the operator (+, -, *, /, %):");
+//string Math = Console.ReadLine();
+
+//Console.WriteLine("Enter the second number:");
+//double secondNumber = Convert.ToDouble(Console.ReadLine());
+
+//double result = 0;
+
+//if (Math == "+")
+//{
+//    result = firstNumber + secondNumber;
+//}
+//else if (Math == "-")
+//{
+//    result = firstNumber - secondNumber;
+//}
+//else if (Math == "*")
+//{
+//    result = firstNumber * secondNumber;
+//}
+//else if (Math == "/")
+//{
+//    if (secondNumber == 0)
+//    {
+//        Console.WriteLine("Cannot divide by zero.");
+//        return;
+//    }
+//    result = firstNumber / secondNumber;
+//}
+//else if (Math == "%")
+//{
+//    result = firstNumber % secondNumber;
+//}
+//else
+//{
+//    Console.WriteLine("Invalid operator input.");
+//    return;
+//}
+
+//Console.WriteLine("Result: " + result);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Console.WriteLine("Enter a month:");
+//string input = Console.ReadLine();
+
+//int days = 0;
+//string month = input.ToLower();
+
+//if (month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december")
+//{
+//    days = 31;
+//}
+//else if (month == "april" || month == "june" || month == "september" || month == "november")
+//{
+//    days = 30;
+//}
+//else if (month == "february")
+//{
+//    days = 28;
+//}
+//else
+//{
+//    Console.WriteLine("Invalid month input.");
+//    return;
+//}
+
+//Console.WriteLine($"{month} has {days} days.");
+
+
+// .Split(' '): The Split method is called on the string returned by Console.ReadLine().
+// It splits the string into an array of substrings based on the specified separator,
+// which is a space character in this case. This effectively separates the input into individual numbers.
+
+// .Select(int.Parse): The Select method is called on the array of substrings obtained from the Split method.
+// It applies the specified function int.Parse to each substring. int.Parse converts each substring into an integer representation.
+
+//{
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//    Console.WriteLine("Enter a list of numbers:");
+
+//    int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+//    if (numbers.Length > 0)
+//    {
+//        int smallestNumber = numbers.Min();
+//        Console.WriteLine("The smallest number is: " + smallestNumber);
+//    }
+//    else
+//    {
+//        Console.WriteLine("No valid numbers were entered.");
+//    }
+
+//    Console.ReadLine();
+
+//}
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Console.WriteLine("Enter a list of numbers:");
+//string input = Console.ReadLine();
+//string[] numbers = input.Split(' ');
+
+////the line splits the user input string into individual substrings wherever a space character is
+////found and stores these substrings in the numbers array. Each substring will represent a separate number entered by the user.
+
+//int smallestNumber = int.MaxValue;
+
+//// This line initializes the variable smallestNumber with the maximum possible value for an int.
+//// It ensures that any valid number encountered in the loop will be smaller than the initial value of smallestNumber.
+
+//for (int i = 0; i < numbers.Length; i++)
+
+////the for loop iterates over the elements of the numbers array, starting from index 0 and continuing until i reaches the last valid index of the array.
+////The loop condition ensures that the loop will execute as long as there are more elements in the numbers array to process.
+//{
+//if (int.TryParse(numbers[i], out int parsedNumber) && parsedNumber < smallestNumber)
+
+////  this line combines the parsing of a string into an integer using int.TryParse and the comparison of the parsed integer with the current smallestNumber.
+////  It allows us to find the smallest number among the parsed integers from the numbers array.
+//{
+//smallestNumber = parsedNumber;
+//}
+////this line updates the smallestNumber variable by assigning it the value of parsedNumber,
+////indicating that a new smallest number has been found in the loop iteration.
+//}
+
+//Console.WriteLine(numbers.Length > 0 ? $"The smallest number is: {smallestNumber}" : "No valid numbers were entered.");
+
+//// this line of code conditionally determines the message to be displayed based on whether or not valid numbers were entered. If valid numbers are present,
+//// it prints a message indicating the smallest number found. Otherwise, it prints a message indicating that no valid numbers were entered.
+
+//Console.ReadLine();
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//{
+//    Console.WriteLine("Enter a list of numbers:");
+//    string input = Console.ReadLine();
+//    string[] numbers = input.Split(' ');
+
+//    int highestNumber = int.MinValue;
+
+//    for (int i = 0; i < numbers.Length; i++)
+//    {
+//        if (int.TryParse(numbers[i], out int parsedNumber) && parsedNumber > highestNumber)
+//        {
+//            highestNumber = parsedNumber;
+//        }
+//    }
+
+//    Console.WriteLine(numbers.Length > 0 ? $"The highest number is: {highestNumber}" : "No valid numbers were entered.");
+
+//    Console.ReadLine();
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.WriteLine("Enter a string:");
+//string input = Console.ReadLine();
+
+//string reversed = "";
+
+//for (int i = input.Length - 1; i >= 0; i--)
+
+//    // the for loop iterates through the characters of the input string in reverse order, starting from the index of the last character and continuing until the first character.The loop condition ensures that the loop will 
+//    // execute as long as there are more characters in the string to process.The i variable allows access to each character of the string by its index during each iteration of the loop.
+//        {
+//    reversed += input[i];
+//}
+//// By using the += operator, the line efficiently builds the reversed string by concatenating the characters one by one, resulting in the final reversed string stored in the reversedString variable.
+
+//Console.WriteLine("Reversed string: " + reversed);
+
+//Console.ReadLine();
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.WriteLine("Enter a series of numbers:");
+
+//string input = Console.ReadLine();
+
+//string[] numberStrings = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+////This line splits the input string into an array of substrings using the space character as the seperator. It uses the Split method, specifying the space character (' ') as the seperator.
+////The StringSplitOptions.RemoveEmptyEntries option is used to remove any empty entries resulting from consecutive spaces.
+//// By splitting the input string and creating an array of number substrings, i can effectively handle and process each number separately for further operations,
+
+//// removing the splitting code means i won't have individual numbers to process and check for duplicates.
+////Consequently, i won't be able to achieve the desired outcome of removing duplicate numbers.
+
+//HashSet<int> numbersset = new HashSet<int>();
+
+////  A HashSet does not allow duplicate values, meaning each element in the set must be not be the same. 
+////This line creates a new instance of the HashSet<int> class named numbersSet. The HashSet<int> collection is used to store unique values and provides efficient lookup and retrieval.
+
+
+//foreach (string numberString in numberStrings)
+//// This line is like a instruction that helps me look at each (substring) in the numberStrings array, one by one. We assign each item to a special box called numberString, so we can do something with it.
+
+
+//{
+//    int number = int.Parse(numberString);
+//    numbersset.Add(number);
+
+//    // This foreach loop iterates over each element in the numberStrings array, representing each number substring.
+//    // It converts each numberString substring to an integer using int.Parse and adds it to the numbersSet HashSet using the Add method. This process ensures that only unique numbers are stored in the HashSet.
+//}
+
+//Console.WriteLine("The final numbers are:");
+//Console.WriteLine(string.Join(" ", numbersset));
+
+//// This line joins the elements in the numbersSet HashSet into a single string, using a space character as the separator.
+//// The string.Join method concatenates the elements in the numbersSet HashSet, separated by spaces. 
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Console.WriteLine("Enter a series of numbers:");
+//string input = Console.ReadLine();
+//int[] numbersArray = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+
+//.Distinct()
+
+//// The Distinct method filters the array to return only the distinct (unique) elements, removing any duplicates.
+
+//.Select(int.Parse)
+
+////  the Select method is used to convert each element of the array of strings to integers. 
+//// By applying int.Parse as the projection function within Select, each string element is transformed into an integer.
+
+//.ToArray();
+
+//Console.WriteLine("The final numbers are:\n" + string.Join(" ", numbersArray));
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.WriteLine("Enter a series of numbers:");
+//string input = Console.ReadLine();
+//string[] numberStrings = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+//int[] numbersArray = new int[numberStrings.Length];
+
+////  this line of code creates a new integer array called numbersArray with a length that matches the number of elements in the numberStrings array.
+////  It ensures that numbersArray has enough space to store the integers parsed from the string substrings.
+
+//int index = 0;
+
+//// int index = 0; initializes the index variable to 0 and serves as a counter to keep track of the current position in the numbersArray where the next unique number should be stored.
+
+//foreach (string numberString in numberStrings)
+//{
+//    int number = int.Parse(numberString);
+
+//    // This foreach loop iterates over each element in the numberStrings array, representing each number substring.
+
+//    if (Array.IndexOf(numbersArray, number) == -1)
+
+//        //checks if a given number is already present in the numbersArray or not.      
+//        // it executes the following code block within the if statement.
+//       //  checks if the number is not found in the numbersArray array.If the condition is true(meaning the number is not found), it executes the following code block within the if statement.  
+//       // If the number is not found in the numbersArray, it means it's unique and not a duplicate
+//    // If the number is not found in the array, Array.IndexOf returns -1.
+//    {
+//        numbersArray[index++] = number;
+//    }
+//}
+
+//int[] finalNumbers = new int[index];
+
+//// creates a new integer array called finalNumbers with a length equal to the value of index.
+//// The index variable represents the number of unique numbers found in the numbersArray and indicates the required length for the finalNumbers array.
+//// By initializing finalNumbers with the correct length, we ensure that it can accommodate only the unique numbers without any extra empty positions.
+
+//Array.Copy(numbersArray, finalNumbers, index);
+
+////copies index elements from the numbersArray starting from the beginning, and pastes them into the finalNumbers array starting from the beginning.
+
+//Console.WriteLine("The final numbers are:");
+//Console.WriteLine(string.Join(" ", finalNumbers));
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//{
+//    Console.WriteLine("Enter a sentence:");
+//    string input = Console.ReadLine();
+
+//    // Split the sentence into words
+//    string[] words = input.Split(' ');
+
+//    Dictionary<string, int> wordCounts = new Dictionary<string, int>();
+
+//    // Count the occurrences of each word
+//    foreach (string word in words)
+//    {
+//        if (wordCounts.ContainsKey(word))
+//        {
+//            wordCounts[word]++;
+//        }
+//        else
+//        {
+//            wordCounts[word] = 1;
+//        }
+//    }
+
+//    // Display the duplicate word counts
+//    Console.WriteLine("Duplicate word counts:");
+//    foreach (KeyValuePair<string, int> entry in wordCounts)
+//    {
+//        if (entry.Value > 1)
+//        {
+//            Console.WriteLine($"Word '{entry.Key}' is present {entry.Value} times.");
+//            // Using string interpolation ($), the code constructs a formatted string that includes the word and its count.
+//            // The entry.Key represents the word itself, and entry.Value represents the count of occurrences for that word.
+//        }
+//    }
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+//string input = "Cat, Dog, Dog, Cat, Elephant, Tree, Apple, Taxi, Apple, Elephant, Tree";
+//string[] words = input.Split(", ");
+
+//Dictionary<string, int> wordCounts = new Dictionary<string, int>();
+
+//foreach (string word in words)
+//{
+//    if (wordCounts.ContainsKey(word))
+//    {
+//        wordCounts[word]++;
+//    }
+//    else
+//    {
+//        wordCounts[word] = 1;
+//    }
+//}
+
+//Console.WriteLine("Duplicate word counts:");
+//foreach (KeyValuePair<string, int> wordCount in wordCounts)
+//{
+//    if (wordCount.Value > 1)
+//    {
+//        Console.WriteLine($"Word '{wordCount.Key}' is present {wordCount.Value} times.");
+//    }
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//// Create a dictionary to map numbers to months
+//Dictionary<int, string> monthDictionary = new Dictionary<int, string>()
+//        {
+//            { 1, "January" },
+//            { 2, "February" },
+//            { 3, "March" },
+//            { 4, "April" },
+//            { 5, "May" },
+//            { 6, "June" },
+//            { 7, "July" },
+//            { 8, "August" },
+//            { 9, "September" },
+//            { 10, "October" },
+//            { 11, "November" },
+//            { 12, "December" }
+//        };
+
+//Console.Write("Enter a number (1-12): ");
+//int input = Convert.ToInt32(Console.ReadLine());
+
+//if (monthDictionary.ContainsKey(input))
+//{
+//    string month = monthDictionary[input];
+//    Console.WriteLine("The corresponding month is: " + month);
+//}
+//else
+//{
+//    Console.WriteLine("Invalid input. Please enter a number between 1 and 12.");
+//}
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+//// Create a dictionary to map abbreviated month names to full month names
+//Dictionary<string, string> monthDictionary = new Dictionary<string, string>()
+//    {
+//        { "jan", "January" },
+//        { "feb", "February" },
+//        { "mar", "March" },
+//        { "apr", "April" },
+//        { "may", "May" },
+//        { "jun", "June" },
+//        { "jul", "July" },
+//        { "aug", "August" },
+//        { "sep", "September" },
+//        { "oct", "Ofctober" },
+//        { "nov", "November" },
+//        { "dec", "December" }
+//    };
+
+//Console.Write("Enter the abbreviated month: ");
+//string input = Console.ReadLine().ToLower();
+
+
+//if (monthDictionary.ContainsKey(input))
+//{
+//    string fullMonth = monthDictionary[input];
+//    Console.WriteLine("Full month: " + fullMonth);
+//}
+//else
+//{
+//    Console.WriteLine("Invalid month abbreviation.");
+//}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Dictionary<char, bool> vowels = new Dictionary<char, bool>()
+//        {
+//            { 'a', true },
+//            { 'e', true },
+//            { 'i', true },
+//            { 'o', true },
+//            { 'u', true }
+//        };
+
+//Console.Write("Enter a string: ");
+//string input = Console.ReadLine().ToLower();
+
+//int vowelCount = 0;
+
+//foreach (char c in input)
+//{
+//    if (vowels.ContainsKey(c))
+//    {
+//        vowelCount++;
+//    }
+//}
+
+//Console.WriteLine("Number of vowels: " + vowelCount);
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//int numTerms = 10; // Number of terms to generate
+
+//Console.WriteLine("Fibonacci Series:");
+
+//// Generate and display Fibonacci series 
+//for (int i = 0; i < numTerms; i++)
+//{
+//    Console.Write(Fibonacci(i) + " ");
+//}
+
+//Console.ReadLine();
+
+
+//static int Fibonacci(int n)
+//{
+//    if (n <= 1)
+//    {
+//        return n;
+//    }
+//    else
+//    {
+//        return Fibonacci(n - 1) + Fibonacci(n - 2);
+//    }
+//}
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Console.Write("Enter a Word to check if it is palindrome: ");
+//string input = Console.ReadLine();
+
+//if (IsPalindrome(input))
+//{
+//    Console.WriteLine("The string is a palindrome.");
+//}
+//else
+//{
+//    Console.WriteLine("The string is not a palindrome.");
+
+//    Console.ReadLine();
+//}
+
+//static bool IsPalindrome(string str)
+//{
+//    int left = 0;
+//    int right = str.Length - 1;
+//    // By assigning str.Length - 1 to the variable right, we ensure that right represents the index of the last character in the string.
+
+//    while (left < right)
+//    {
+//        if (str[left] != str[right])
+//        // This line compares the characters at the left and right positions in the string str. It checks if the characters are not equal using the inequality operator !=.
+//        {
+//            return false;
+//            //If the characters at the left and right positions are not equal, the condition inside the if statement evaluates to true. This indicates that the string is not a palindrome, and the code inside the if block is executed.
+//        }
+
+//        left++;
+//        right--;
+//        // On the other hand, if the characters are equal, the condition inside the if statement evaluates to false. This means that the characters are symmetrically positioned and match each other, so the code inside the if block is not executed.
+//    }
+
+//    return true;
+//}
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//int[] numbers = { 1, 1, 0, -1, -1 };
+
+//int positiveCount = 0;
+//int negativeCount = 0;
+//int zeroCount = 0;
+
+//foreach (int number in numbers)
+//{
+//    if (number > 0)
+//    {
+//        positiveCount++;
+//    }
+//    else if (number < 0)
+//    {
+//        negativeCount++;
+//    }
+//    else
+//    {
+//        zeroCount++;
+//    }
+//}
+
+//int totalCount = numbers.Length;
+
+//decimal positiveRatio = (decimal)positiveCount / totalCount;
+//decimal negativeRatio = (decimal)negativeCount / totalCount;
+//decimal zeroRatio = (decimal)zeroCount / totalCount;
+
+//Console.WriteLine($"Ratio of Positives = {positiveRatio}");
+//Console.WriteLine($"Ratio of Negatives = {negativeRatio}");
+//Console.WriteLine($"Ratio of Zeros = {zeroRatio}");
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//int[] group1 = { 5, 1, 2, 5 };
+//int[] group2 = { 2, 5, 5, 12 };
+
+//int group1Points = 0;
+//int group2Points = 0;
+//for (int i = 0; i < group1.Length; i++)
+
+//// starts a loop that iterates over the indices of the group1 array. The loop variable i is initialized to 0, and the loop continues as long as i is less than the length of the group1 array.
+
+//{
+//    if (group1[i] > group2[i])
+
+//        // The line if (group2[i] > group1[i]) checks if the number at index i in the group2 array is greater than the element at the same index in the group1 array.
+
+//        group1Points++;
+//    else if (group2[i] > group1[i])
+
+//        // If the condition in line 2 is true, the line groupPoints++; increments the groupPoints variable by one. This is done to keep track of the number of elements in group2 that are greater than their counterparts in group1.
+
+//        group2Points++;
+//}
+
+//Console.WriteLine("Group 1 has {0} points.", group1Points);
+//Console.WriteLine("Group 2 has {0} points.", group2Points);
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
